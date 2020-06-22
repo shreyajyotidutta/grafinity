@@ -1,7 +1,7 @@
-@import url('https://shreyajyotidutta.github.io/grafinity/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 html, body{
-    font-family: var(--Montserrat);
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -45,7 +45,7 @@ body{
 }*/
 
 h1.header-text-primary{
-    font-family: 'Anton', 'sans-serif';
+    font-family: 'Anton', sans-serif;
     color: #fe0066;
     font-size: 144px;
     letter-spacing: 1.6vw;
