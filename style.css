@@ -1,7 +1,3 @@
-html, body{
-    font-family: 'Montserrat', 'sans-serif';
-}
-
 body{
     padding-top: 70px;
 }
@@ -19,14 +15,12 @@ body{
 }
 
 h1.header-text-primary{
-    font-family: 'Anton', 'sans-serif';
     color: #fe0066;
     font-size: 144px;
     letter-spacing: 1.6vw;
 }
 
 h2.header-text-secondary{
-    font-family: 'Anton', 'sans-serif';
     color: #fe0066;
     font-size: 104px;
     letter-spacing: 1.17vw;
