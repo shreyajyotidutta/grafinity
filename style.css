@@ -1,12 +1,10 @@
 html, body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 body{
     padding-top: 70px;
 }
-
-/*===============Global classes=============================*/
 
 .navbar-dark{
     background-color: #4A017D;
@@ -19,15 +17,9 @@ body{
 .heading{
     padding-top: 100px;
 }
-/*
-@media (max-width: 767px){
-    .heading{
-       padding-top: 50px;
-    }
-}*/
 
 h1.header-text-primary{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Anton', 'sans-serif';
     color: #fe0066;
     font-size: 144px;
     letter-spacing: 1.6vw;
