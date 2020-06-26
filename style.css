@@ -1,4 +1,4 @@
-@import url('../https://shreyajyotidutta.github.io/grafinity/fonts.css');
+@import url('https://shreyajyotidutta.github.io/grafinity/fonts.css');
 
 html, body{
     font-family: var(--Montserrat);
