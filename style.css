@@ -1,0 +1,242 @@
+@import url('../css/fonts.css');
+
+html, body{
+    font-family: var(--Montserrat);
+    min-width: fit-content;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    /*    Theme font-family    */
+    --Anton:'Anton',cursive;
+    --Abel:'Abel',cursive;
+    --Montserrat:'Montserrat',cursive;
+    --Lato:'Lato',cursive;
+
+    /*    Theme colors    */
+    --heading_color:#4A017D;
+    --heading_text_color: #fe0066;
+    --button_color: #4DFFB3;
+
+    /*    gradient color    */
+    /*    open webgradient.com  */
+}
+
+/*=========================== Global classes =============================*/
+
+.navbar-dark{
+    background-color: #4A017D;
+}
+
+#Navbar{
+    padding-left: 20px;
+}
+
+#header-img{
+    margin-right: 0px;
+}
+
+.heading{
+    padding-top: 100px;
+}
+/*
+@media (max-width: 767px){
+    .heading{
+       padding-top: 50px;
+    }
+}*/
+
+h1.header-text-primary{
+    font-family: 'Anton', 'sans-serif';
+    color: #fe0066;
+    font-size: 144px;
+    letter-spacing: 1.6vw;
+}
+
+h2.header-text-secondary{
+    font-family: 'Anton', 'sans-serif';
+    color: #fe0066;
+    font-size: 104px;
+    letter-spacing: 1.17vw;
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    h1.header-text-primary{
+        font-size: 115px;
+        letter-spacing: 1vw;
+    }
+    h2.header-text-secondary{
+        font-size: 85px;
+        letter-spacing: 0.7vw;
+    }
+}
+
+@media (max-width: 766px){
+    h1.header-text-primary{
+        font-size: 115px;
+        letter-spacing: 1vw;
+    }
+    h2.header-text-secondary{
+        font-size: 85px;
+        letter-spacing: 0.7vw;
+    }
+}
+
+h2.header-text-secondary
+{
+    padding-bottom: 1rem;
+    border-bottom: 0.5rem solid #4DFFB3;
+}
+
+p.heading-tagline{
+    text-transform: uppercase;
+    letter-spacing : 2px;
+    font-weight: 500;
+	color : #999;
+}
+
+a.btn-contact-us{
+    border-radius: 20px;
+    color: #4A017D;
+    background-color: #4DFFB3;
+    padding: 8px 20px;
+    border: none;
+}
+
+a.btn-contact-us:hover{
+    background-color: #4A017D;
+    color: #fff;
+}
+
+.row-content{
+    margin: 0 auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.row-content-project{
+    margin: 0 auto;
+    padding: 50px 0px;
+    min-height: 400px;
+}
+
+h5.card-heading{
+    color: #fe0066;
+    font-weight: bold;
+}
+span.card-heading{
+    color: #fe0066;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.pink-span{
+    color: #fe0066;
+}
+
+.violet-span{
+    color: #4A017D;
+}
+
+span.number{
+    color: #fe0066;
+}
+
+span.proname{
+    color: #4A017D;
+}
+
+@media (max-width: 766px){
+    .card{
+        margin-bottom: 10px;
+    }
+}
+
+
+h4.modal-title{
+    color: #fe0066;
+}
+
+.footer{
+    background-color: #4A017D;
+    margin: 0 auto;
+    padding: 40px 0px 20px;
+}
+
+.footer a:hover{
+    transform: scale(1.2);
+}
+
+a.btn-feedback{
+    padding: 2px 5px;
+    border: none;
+    background-color: #fe0066;
+}
+
+a.btn-feedback:hover{
+    transform: none;
+}
+
+h5.footer-link{
+    color: #fe0066;
+}
+
+
+
+#projectmodal1 .modal-dialog,
+#projectmodal2 .modal-dialog,
+#projectmodal3 .modal-dialog,
+#projectmodal4 .modal-dialog{
+    margin-top: 0;
+}
+
+#projectmodal1 .modal-dialog .modal-content,
+#projectmodal2 .modal-dialog .modal-content,
+#projectmodal3 .modal-dialog .modal-content,
+#projectmodal4 .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+    padding-top: 2rem;
+}
+
+#projectmodal1 .modal-header,
+#projectmodal2 .modal-header,
+#projectmodal3 .modal-header,
+#projectmodal4 .modal-header{
+    border-bottom: none;
+    padding: 0;
+}
+
+#projectmodal1 .modal-body,
+#projectmodal2 .modal-body,
+#projectmodal3 .modal-body,
+#projectmodal4 .modal-body{
+    padding: 0;
+    border: 2px ridge;
+}
+
+#services .card img{
+    height: 100px;
+    width: 100px;
+    margin: 15px auto 0;
+}
+
+a.btn-getstarted{
+    background-color: #4A017D;
+}
+
+
+.nav-link.active,
+.nav-link:hover {
+    color: #fe0066 !important;
+}
+.nav-link.active:after{
+    content: "";
+    width: 5px;
+    height: 2px;
+    color: #fe0066;
+}
